@@ -38,8 +38,7 @@ Request Payment
 
 	// merchant id to be passed along the param
 	$merchant = $ccavenue->getMerchantId();
-
-	?>
+	
 
 HTML Redirect
 
