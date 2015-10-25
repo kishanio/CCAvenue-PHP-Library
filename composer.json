@@ -1,0 +1,25 @@
+{
+    "name": "kishanio/ccavenue",
+    "description": "CCAvenue Payment Gateway PHP Library",
+    "license": "MIT",
+    "keywords": ["ccavenue", "php", "library", "payment gateway"],
+    "authors": [
+        {
+            "name": "Kishan Thobhani",
+            "email": "thobhanikishan@gmail.com"
+        }
+    ],
+    "suggest": {
+        "ext-mcrypt": "Required for most features of CCAvenue"
+    },
+    "require": {
+        "php": ">=5.5"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "CCAvenue\\": "src"
+        }
+    }
+}
