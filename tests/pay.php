@@ -1,7 +1,7 @@
 <?php 
 
 require_once __DIR__ . '/../vendor/autoload.php'; 
-use CCAvenue\Payment as CCAvenueClient;
+use Kishanio\CCAvenue\Payment as CCAvenueClient;
 
 $ccavenue = new CCAvenueClient( '<merchant_id>', '<working_key>', '<redirect_url>' );
 

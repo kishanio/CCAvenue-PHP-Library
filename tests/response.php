@@ -2,7 +2,7 @@
 
 
 require_once __DIR__ . '/../vendor/autoload.php'; 
-use CCAvenue\Payment as CCAvenueClient;
+use Kishanio\CCAvenue\Payment as CCAvenueClient;
 
 // Get Response
 $response=$_POST["encResponse"];	

@@ -1,8 +1,8 @@
 <?php 
 
-namespace CCAvenue;
+namespace Kishanio\CCAvenue;
 
-use CCAvenue\Payment;
+use Kishanio\CCAvenue\Payment;
 
 class Utils {
 
