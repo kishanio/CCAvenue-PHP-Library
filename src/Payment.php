@@ -28,10 +28,11 @@ class Payment {
 	private $delivery_tel;
 	private $billing_notes;
 
-	public function __construct( $merchant_id, $working_key )
+	public function __construct( $merchant_id, $working_key, $url )
     {
         $this->merchant_id = $merchant_id;
         $this->working_key = $working_key;
+        $this->url = $url;
     }
 
 	public function getWorkingKey() {

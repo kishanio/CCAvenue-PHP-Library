@@ -14,12 +14,11 @@ Request Payment
 	require_once __DIR__ . '/../vendor/autoload.php'; 
 	use CCAvenue\Payment as CCAvenueClient;
 
-	$ccavenue = new CCAvenueClient( '<merchant_id>', '<working_key>' );
+	$ccavenue = new CCAvenueClient( '<merchant_id>', '<working_key>', '<redirect_url>' );
 
 	// set details 
 	$ccavenue->setAmount( '<Amount>' );
 	$ccavenue->setOrderId( '<order_id>' );
-	$ccavenue->setRedirectUrl( '<url>' );
 	$ccavenue->setBillingName( '<billing_cust_name>' );
 	$ccavenue->setBillingAddress( '<billing_cust_address>' );
 	$ccavenue->setBillingCity( '<billing_cust_city>' );
