@@ -62,7 +62,7 @@ Payment Response
 	// Get Response
 	$response=$_POST["encResponse"];	
 
-	$ccavenue = new CCAvenueClient( 'M_smi44769_44769', '9vixgnzn5772ev1b13bz52chdxeq0bk3' );
+	$ccavenue = new CCAvenueClient( '<merchant_id>', '<working_key>', '<redirect_url>' );
 
 	// Check if the transaction was successfull.
 	echo $ccavenue->response( $response );
